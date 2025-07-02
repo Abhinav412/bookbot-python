@@ -1,11 +1,9 @@
+from stats import text_count
+
 def get_book_text(filepath):
     with open(filepath) as f:
         content = f.read()
     return content
-
-def text_count(text):
-    words = text.split()
-    return len(words)
 
 def main():
     filepath = "/root/bookbot-python/books/frankenstein.txt"
