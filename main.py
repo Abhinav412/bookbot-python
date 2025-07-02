@@ -8,5 +8,5 @@ def main():
     content = get_book_text(filepath)
     print(content)
 
-if __name__ == "main":
+if __name__ == "__main__":
     main()
